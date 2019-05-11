@@ -1,0 +1,38 @@
+package com.java.apache.spark.drools;
+dialect  "mvel"
+
+import com.java.apache.spark.drools.ProductTrading
+import java.math.BigDecimal
+
+/*
+ * A 级品
+ */
+rule "A"
+    when
+        $value: ProductTrading(amount > 800)
+    then
+        $value.setLevel("A");
+        update($value);
+end
+
+/*
+ * B 级品
+ */
+rule "B"
+    when
+        $value: ProductTrading(amount > 200 && amount <= 800)
+    then
+        $value.setLevel("B");
+        update($value);
+end
+
+/*
+ * C 级品
+ */
+rule "C"
+    when
+        $value: ProductTrading(amount <= 200)
+    then
+        $value.setLevel("C");
+        update($value);
+end
