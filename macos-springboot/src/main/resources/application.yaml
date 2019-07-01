@@ -31,8 +31,9 @@ spring:
       auto-offset-reset: latest
       enable-auto-commit: true
       group-id: my_group_id
-    template:
-      default-topic: test_topic
+    topic: test_topic
+#    template:
+#      default-topic: test_topic
     listener:
       concurrency: 10
 # Mybatis配置
