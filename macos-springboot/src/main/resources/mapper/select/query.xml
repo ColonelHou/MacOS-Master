@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.macos.java.dao.MybatisMySQLDao">
+	<resultMap type="org.macos.java.dao.beans.JobAddress" id="job_address">
+		<result column="job_id" jdbcType="INTEGER" property="job_id"/>
+		<result column="executor_address" jdbcType="VARCHAR" property="executor_address"/>
+	</resultMap>
+
+
+	<select id="getAll" resultMap="job_address">
+		SELECT job_id, executor_address
+		FROM XXL_JOB_QRTZ_TRIGGER_LOG
+		GROUP BY job_id, executor_address
+	</select>
+
+</mapper>

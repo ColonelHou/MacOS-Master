@@ -17,13 +17,9 @@ public class CustomerRepositoryImpl implements CustomerRepository {
 
     private static final String KEY = "Customer";
 
+    @Autowired
     private RedisTemplate<String, Object> redisTemplate;
     private HashOperations<String, Long, Customer> hashOperations;
-
-    @Autowired
-    public CustomerRepositoryImpl(RedisTemplate<String, Object> redisTemplate) {
-        this.redisTemplate = redisTemplate;
-    }
 
     @PostConstruct
     private void init() {
