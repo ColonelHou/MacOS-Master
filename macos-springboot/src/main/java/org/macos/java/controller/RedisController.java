@@ -12,6 +12,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 
+/**
+ * http://localhost:8080/abc/save
+ * http://localhost:8080/abc/find?id=3
+ * http://localhost:8080/abc/findall
+ */
 @RestController
 public class RedisController {
 
