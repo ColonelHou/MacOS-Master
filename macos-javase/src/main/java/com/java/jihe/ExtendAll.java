@@ -17,9 +17,16 @@ import java.util.EnumMap;
 import java.util.TreeMap;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class ExtendAll {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
+        System.out.println("111111111");
+//        ReentrantLock lock = new ReentrantLock(true);
+//        lock.wait();
+        Object obj = new Object();
+        obj.wait();
+        System.out.println("222222222222");
     }
 }

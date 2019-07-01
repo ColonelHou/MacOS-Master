@@ -14,6 +14,11 @@ public class DateQueue {
     public synchronized void put(String val) {
         while (queue.size() == 1) {
             try {
+                //
+                /**
+                 * 线程会进入 this对象的等待队列; 等待队列中会有多个线程等待,
+                 * 唤醒后是非公平的
+                 */
                 this.wait(); // 让线程暂停, 并让同对象锁
             } catch (InterruptedException e) {
                 e.printStackTrace();
