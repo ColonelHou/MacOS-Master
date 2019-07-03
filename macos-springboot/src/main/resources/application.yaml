@@ -4,6 +4,8 @@ server:
     context-path: /abc
 
 spring:
+  conf:
+    url: http://www.baidu.com
   redis:
     database: 0
     host: 127.0.0.1

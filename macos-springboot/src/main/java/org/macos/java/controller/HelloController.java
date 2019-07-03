@@ -1,5 +1,6 @@
 package org.macos.java.controller;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -15,6 +16,8 @@ public class HelloController {
     @RequestMapping(value = "/say")
     public String hello(@RequestParam String title) {
         System.out.println("say ------> hello world" + title);
+
+        String url;
         return "Hello + World " + title;
     }
 
