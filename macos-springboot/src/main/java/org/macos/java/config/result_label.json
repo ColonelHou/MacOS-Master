@@ -1,0 +1,20 @@
+{
+  "car": [{
+    "brand": "奥迪",
+    "brand_wc": 1,
+    "serial_ratio": 0.0,
+    "master_brand": "奥迪",
+    "serial": "奥迪a4",
+    "master_brand_wc": 1,
+    "brand_ratio": 0.0,
+    "master_brand_id": "9",
+    "emotion": 1,
+    "serial_id": "2075",
+    "brand_id": "20004",
+    "master_brand_ratio": 0.0,
+    "serial_wc": 0
+  }],
+  "classification": {},
+  "ext": {},
+  "tag_result": {}
+}
