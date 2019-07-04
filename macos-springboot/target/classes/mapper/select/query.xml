@@ -34,6 +34,9 @@
             #{label_json}
         )
 	</insert>
+    <delete id="delById">
+		delete from label where article_id = #{articleId}
+	</delete>
 
     <insert id="saveList" parameterType="java.util.List">
         insert into label

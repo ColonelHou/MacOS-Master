@@ -21,7 +21,7 @@ public class FastJsonTest {
         String path = "";
         String httpPath = "/Users/houningning/Documents/mywksp/MacOS-Master/macos-springboot/src/main/java/org/macos/java/config/http.json";
         String labelPath = "/Users/houningning/Documents/mywksp/MacOS-Master/macos-springboot/src/main/java/org/macos/java/config/result_label.json";
-        BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File(labelPath))));
+        BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File(httpPath))));
         String line = br.readLine();
         StringBuffer buffer = new StringBuffer();
         while (line != null) {
@@ -29,8 +29,25 @@ public class FastJsonTest {
             line = br.readLine();
         }
         System.out.println(buffer.toString());
-
         JSONObject obj = JSON.parseObject(buffer.toString());
+        JSONArray arr = obj.getJSONArray("data");
+        Iterator it = arr.iterator();
+        while (it.hasNext()) {
+            JSONObject articleObj = (JSONObject) it.next();
+            String strArticleId = articleObj.getString("news_id");
+            System.out.println(strArticleId);
+        }
+
+
+
+
+//        String jsonBody = parseHttpMsg(buffer.toString());
+//        String label = sendHttpPost("http://211.159.160.128/tag/test", jsonBody);
+//        System.out.println(label);
+    }
+
+    public void parseTagLabel(String msg) {
+        JSONObject obj = JSON.parseObject(msg);
         JSONArray arr = obj.getJSONArray("car");
         Iterator it = arr.iterator();
         while (it.hasNext()) {
@@ -40,10 +57,6 @@ public class FastJsonTest {
             System.out.println(carObj.getString("brand_id"));
             System.out.println(carObj.getString("master_brand_ratio"));
         }
-
-//        String jsonBody = parseHttpMsg(buffer.toString());
-//        String label = sendHttpPost("http://211.159.160.128/tag/test", jsonBody);
-//        System.out.println(label);
     }
 
     public static String sendHttpPost(String url, String body) throws Exception {

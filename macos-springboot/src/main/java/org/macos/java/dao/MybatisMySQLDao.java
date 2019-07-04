@@ -14,5 +14,6 @@ public interface MybatisMySQLDao {
     List<JobAddress> getAll();
     void save(Object obj);
     void saveList(List<ArticleLabel> list);
+    void delById(String articleId);
 }
 

@@ -29,7 +29,7 @@ public class MySQLController {
     @RequestMapping("/saveLabel")
     public String test() {
 
-        List<ArticleLabel> list = new ArrayList<>();
+        /*List<ArticleLabel> list = new ArrayList<>();
         for (int i = 0; i < 10; i ++) {
             ArticleLabel al = new ArticleLabel();
             al.setArticle_id("1152151=" + i);
@@ -39,8 +39,21 @@ public class MySQLController {
             al.setEmotion(0 + i);
             al.setLabel_json("{\"title\":\"nametitle\", \"document\":\"first word" + i + "\"}");
         }
-        mybatisMySQLDao.saveList(list);
-//        mybatisMySQLDao.save(al);
+        mybatisMySQLDao.saveList(list);*/
+
+        ArticleLabel al = new ArticleLabel();
+        al.setArticle_id("1152151");
+        al.setSerial_id("2075");
+        al.setBrand_id("20004");
+        al.setMaster_brand_ratio(12.0);
+        al.setEmotion(0);
+        al.setLabel_json("{\"title\":\"nametitle\", \"document\":\"first word\"}");
+        mybatisMySQLDao.save(al);
         return "hhhhhhhhhhhh";
+    }
+
+    @RequestMapping("/del")
+    public void del() {
+        mybatisMySQLDao.delById("1152151");
     }
 }
