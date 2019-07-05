@@ -51,3 +51,7 @@ mybatis:
   configLocation: classpath:mybatis-spring.xml
 #  configuration:
 #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+thrift:
+  port: 6666
+  minWorkerThreads: 10
+  maxWorkerThreads: 100
