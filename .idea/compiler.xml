@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="macos-algorithm" />
+        <module name="macos-bigdata" />
+        <module name="macos-common" />
+        <module name="macos-db" />
+        <module name="macos-design-model" />
+        <module name="macos-java-se" />
+        <module name="macos-jvm" />
+        <module name="macos-springboot" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="macos-algorithm" options="-parameters" />
+      <module name="macos-bigdata" options="-parameters" />
+      <module name="macos-common" options="-parameters" />
+      <module name="macos-db" options="-parameters" />
+      <module name="macos-design-model" options="-parameters" />
+      <module name="macos-java-se" options="-parameters" />
+      <module name="macos-jvm" options="-parameters" />
+      <module name="macos-springboot" options="" />
+    </option>
+  </component>
+</project>

@@ -18,6 +18,8 @@ import javax.sql.DataSource;
 
 @Configuration
 public class MyBatisConfig implements EnvironmentAware {
+    @Autowired
+    private Environment env;
 
     @Autowired
     DataSource dataSource;
@@ -34,7 +36,7 @@ public class MyBatisConfig implements EnvironmentAware {
 
             SqlSessionFactoryBean bean = new SqlSessionFactoryBean();
             bean.setDataSource(dataSource);
-//            bean.setTypeAliasesPackage(propertyResolver.getProperty("typeAliasesPackage"));
+            bean.setTypeAliasesPackage(propertyResolver.getProperty("typeAliasesPackage"));
             bean.setMapperLocations(resourcePatternResolver.getResources(propertyResolver.getProperty("mapperLocations")));
             bean.setConfigLocation(new DefaultResourceLoader().getResource(propertyResolver.getProperty("configLocation")));
 
@@ -54,11 +56,7 @@ public class MyBatisConfig implements EnvironmentAware {
         return new DataSourceTransactionManager(dataSource);
     }
 
-    /**
-     * Set the {@code Environment} that this object runs in.
-     *
-     * @param environment
-     */
+
     @Override
     public void setEnvironment(Environment environment)
     {
