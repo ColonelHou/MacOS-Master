@@ -14,10 +14,12 @@ public class SynData {
     @Autowired
     private MybatisMySQLDao mybatisMySQLDao;
 
-    @Scheduled(cron = "${polling.schedule.cron:0/2 * * * * ?}")
+    @Scheduled(cron = "${polling.schedule.cron:0 48 16 * * ?}")
     public void synQPS() {
-        LocalDateTime ldt = LocalDateTime.now();
-        String s = ldt.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+        LocalDateTime ldt = LocalDateTime.now().minusDays(1);
+        String s = ldt.format(DateTimeFormatter.ofPattern("yyyyMMdd"));
         System.out.println(s);
+
+        mybatisMySQLDao.aggQpsHistory(s);
     }
 }

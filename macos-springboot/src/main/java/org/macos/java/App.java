@@ -16,11 +16,7 @@ import java.util.stream.Collectors;
  */
 public class App {
     public static void main(String[] args) {
-        LocalDateTime ldt = LocalDateTime.now();
-        String s = ldt.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
-        System.out.println(s);
-
+        Map map = new LinkedHashMap();
     }
-
 }
 

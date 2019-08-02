@@ -53,4 +53,10 @@
             )
         </foreach>
     </insert>
+    <insert id="aggQpsHistory" parameterType="java.util.StringJoiner">
+       INSERT INTO ds_qps_data_day_history(data_time, url, `count`)
+       SELECT #{yesterday}, url, sum(`count`) from ds_qps_data_minute
+       where data_time like CONCAT(#{yesterday}, '%') group by url
+    </insert>
+
 </mapper>

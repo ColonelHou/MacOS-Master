@@ -3,6 +3,7 @@ server:
   servlet:
     context-path: /abc
 
+
 spring:
   conf:
     url: http://www.baidu.com
@@ -19,7 +20,7 @@ spring:
         max-idle: 10 # 连接池中的最大空闲连接
         min-idle: 5 #连接池中的最小空闲连接
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/xxl-job?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=converttonull
+    url: jdbc:mysql://127.0.0.1:3306/m?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=converttonull
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
@@ -49,9 +50,16 @@ spring:
 mybatis:
   mapperLocations: classpath:mapper/**/*.xml
   configLocation: classpath:mybatis-spring.xml
+  configuration:
+    mapUnderscoreToCamelCase: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    typeAliasesPackage: org.macos.java
 #  configuration:
 #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 thrift:
   port: 6666
   minWorkerThreads: 10
   maxWorkerThreads: 100
+logging:
+  level:
+    org.macos.java: debug

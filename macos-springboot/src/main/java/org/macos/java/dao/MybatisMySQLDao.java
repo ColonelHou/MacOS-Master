@@ -15,5 +15,7 @@ public interface MybatisMySQLDao {
     void save(Object obj);
     void saveList(List<ArticleLabel> list);
     void delById(String articleId);
+
+    void aggQpsHistory(String yesterday);
 }
 
