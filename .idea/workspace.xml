@@ -4,17 +4,9 @@
     <list default="true" id="f3eb1af5-28c4-491a-93e8-0b83b4404d3e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/macos-springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/macos-springboot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/SpringBootStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/SpringBootStarter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/dao/MybatisMySQLDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/dao/MybatisMySQLDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/scheduler/SynData.java" beforeDir="false" afterPath="$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/scheduler/SynData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/macos-springboot/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/macos-springboot/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/macos-springboot/src/main/resources/mapper/select/query.xml" beforeDir="false" afterPath="$PROJECT_DIR$/macos-springboot/src/main/resources/mapper/select/query.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/macos-springboot/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/macos-springboot/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/macos-springboot/target/classes/mapper/select/query.xml" beforeDir="false" afterPath="$PROJECT_DIR$/macos-springboot/target/classes/mapper/select/query.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/macos-springboot/target/classes/org/macos/java/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/macos-springboot/target/classes/org/macos/java/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/macos-springboot/target/classes/org/macos/java/dao/MybatisMySQLDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/macos-springboot/target/classes/org/macos/java/dao/MybatisMySQLDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/macos-springboot/target/classes/org/macos/java/scheduler/SynData.class" beforeDir="false" afterPath="$PROJECT_DIR$/macos-springboot/target/classes/org/macos/java/scheduler/SynData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos-springboot/target/classes/org/macos/java/SpringBootStarter.class" beforeDir="false" afterPath="$PROJECT_DIR$/macos-springboot/target/classes/org/macos/java/SpringBootStarter.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/macos-javase/target/" />
@@ -36,40 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/SpringBootStarter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/config/KafkaConsumerConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="345" column="11" selection-start-line="345" selection-start-column="11" selection-end-line="345" selection-end-column="11" />
+            <state relative-caret-position="59">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -77,27 +37,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/macos-springboot/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="113" column="20" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
+            <state relative-caret-position="217">
+              <caret line="119" column="21" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/config/CaffeineConfig.java">
+        <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/config/Swagger2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+            <state relative-caret-position="140">
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
-                <element signature="e#863#864#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-                <element signature="e#927#928#0" expanded="true" />
-                <element signature="e#1468#1483#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../software/apache-maven-3.6.0/repo/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1-sources.jar!/springfox/documentation/spring/web/plugins/ApiSelectorBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/controller/SwaggerDemoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="806" column="13" selection-start-line="806" selection-start-column="13" selection-end-line="806" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -105,40 +88,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/controller/CacheController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+            <state>
+              <caret column="33" selection-start-column="33" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/model/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/dao/MybatisMySQLDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/controller/MySQLController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1127">
-              <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
-              <folding>
-                <element signature="e#1865#1866#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,11 +119,14 @@
         <option value="$PROJECT_DIR$/macos-springboot/src/main/resources/application.yaml" />
         <option value="$PROJECT_DIR$/macos-springboot/src/main/resources/mapper/select/query.xml" />
         <option value="$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/scheduler/SynData.java" />
-        <option value="$PROJECT_DIR$/macos-springboot/pom.xml" />
-        <option value="$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/SpringBootStarter.java" />
         <option value="$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/controller/CacheController.java" />
         <option value="$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/config/CaffeineConfig.java" />
         <option value="$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/App.java" />
+        <option value="$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/dao/beans/Student.java" />
+        <option value="$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/controller/SwaggerDemoController.java" />
+        <option value="$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/SpringBootStarter.java" />
+        <option value="$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/config/Swagger2.java" />
+        <option value="$PROJECT_DIR$/macos-springboot/pom.xml" />
       </list>
     </option>
   </component>
@@ -221,7 +177,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -348,6 +303,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -359,7 +315,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564739148336" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565163990240" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -460,18 +416,20 @@
       <workItem from="1564544213360" duration="5291000" />
       <workItem from="1564558011550" duration="7433000" />
       <workItem from="1564625726148" duration="4260000" />
-      <workItem from="1564716987289" duration="2655000" />
+      <workItem from="1564716987289" duration="2703000" />
+      <workItem from="1564999174659" duration="914000" />
+      <workItem from="1565162962475" duration="937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25241000" />
+    <option name="totallyTimeSpent" value="27140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.247557" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.252443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -481,7 +439,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.65260196" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36990154" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35443038" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5288326" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -632,10 +590,114 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/config/KafkaConsumerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/config/CaffeineConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/dao/MybatisMySQLDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/macos-jvm/src/main/java/com/java/jvm/JVM内存结构.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/macos-jvm/src/main/java/com/java/jvm/hprof/gc.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7153">
+          <caret line="339" column="5" selection-start-line="339" selection-start-column="5" selection-end-line="339" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/macos-jvm/src/main/java/com/java/jvm/jvm调优.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/macos-jvm/src/main/java/com/java/jvm/PrintGCDetailsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/macos-jvm/src/main/java/com/java/jvm/常见OOM.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/macos-jvm/src/main/java/com/java/jvm/GC分析.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/macos-jvm/src/main/java/com/java/jvm/CMS与G1区别.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/macos-jvm/src/main/java/com/java/jvm/Class文件结构.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/macos-jvm/src/main/java/com/java/jvm/ClassLoader与ClassForName区别.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -649,77 +711,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/macos-springboot/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="113" column="20" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
+    <entry file="file://$PROJECT_DIR$/macos-jvm/src/main/java/com/java/jvm/GC命令.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="1012">
+            <caret line="44" column="19" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/config/KafkaConsumerConfig.java">
+    <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/dao/beans/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        <state relative-caret-position="333">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+          <folding>
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/model/Customer.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/SpringBootStarter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="218">
+          <caret line="806" column="13" selection-start-line="806" selection-start-column="13" selection-end-line="806" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/controller/CacheController.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../software/apache-maven-3.6.0/repo/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/ApiSelectorBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../software/apache-maven-3.6.0/repo/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1-sources.jar!/springfox/documentation/spring/web/plugins/ApiSelectorBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/macos-springboot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="119" column="21" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/config/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/config/CaffeineConfig.java">
+    <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/SpringBootStarter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#1468#1483#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="59">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/App.java">
+    <entry file="file://$PROJECT_DIR$/macos-springboot/src/main/java/org/macos/java/controller/SwaggerDemoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="148">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="345" column="11" selection-start-line="345" selection-start-column="11" selection-end-line="345" selection-end-column="11" />
         </state>
       </provider>
     </entry>
