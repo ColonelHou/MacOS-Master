@@ -3,12 +3,15 @@ package org.macos.java.controller;
 import org.macos.java.dao.MybatisMySQLDao;
 import org.macos.java.dao.beans.ArticleLabel;
 import org.macos.java.dao.beans.JobAddress;
+import org.macos.java.dao.beans.LabelTest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 public class MySQLController {
@@ -25,6 +28,34 @@ public class MySQLController {
         }
         return buffer.toString();
     }
+    @RequestMapping("/getDash")
+    public String getDash() {
+        List<LabelTest> list = mybatisMySQLDao.getDash();
+        StringBuffer buffer = new StringBuffer();
+        for (LabelTest label : list) {
+            buffer.append(label.getArticle_id() + ", " + label.getEmotion() + ", " + label.getDma());
+        }
+        return buffer.toString();
+    }
+
+    @RequestMapping("/getDashIn")
+    public String getDashIn() {
+        List<String> l = new ArrayList<>();
+        l.add("fac");
+        l.add("car");
+
+        Map<String, Object> map = new HashMap<>();
+        map.put("ddmm", new String[]{"fac", "car", "city"});
+        map.put("ids", new String[]{"cd"});
+        List<LabelTest> list = mybatisMySQLDao.getDashIn(map);
+        StringBuffer buffer = new StringBuffer();
+        for (LabelTest label : list) {
+            buffer.append(label.getArticle_id() + ", " + label.getEmotion() + ", " + label.getDma() + "\n");
+        }
+        return buffer.toString();
+    }
+
+
 
     @RequestMapping("/saveLabel")
     public String test() {

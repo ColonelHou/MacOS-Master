@@ -7,6 +7,12 @@
 		<result column="executor_address" jdbcType="VARCHAR" property="executor_address"/>
 	</resultMap>
 
+    <resultMap type="org.macos.java.dao.beans.LabelTest" id="labelTest">
+        <result column="article_id" jdbcType="VARCHAR" property="article_id"/>
+        <result column="emotion" jdbcType="INTEGER" property="emotion"/>
+        <result column="dma" jdbcType="VARCHAR" property="dma"/>
+    </resultMap>
+
 
 	<select id="getAll" resultMap="job_address">
 		SELECT job_id, executor_address
@@ -38,6 +44,7 @@
 		delete from label where article_id = #{articleId}
 	</delete>
 
+
     <insert id="saveList" parameterType="java.util.List">
         insert into label
         (article_id,emotion,serial_id,brand_id,master_brand_ratio,label_json)
@@ -58,5 +65,27 @@
        SELECT #{yesterday}, url, sum(`count`) from ds_qps_data_minute
        where data_time like CONCAT(#{yesterday}, '%') group by url
     </insert>
+
+
+    <select id="getDash" resultMap="labelTest">
+		SELECT article_id, emotion, dma
+		FROM label_test
+	</select>
+
+    <select id="getDashIn" resultMap="labelTest"  parameterType="java.util.Map">
+		SELECT article_id, emotion, dma
+		FROM label_test
+		WHERE
+		dma IN
+        <foreach collection="ddmm" item="item" index="index"
+                 open="(" close=")" separator=",">
+            #{item}
+        </foreach>
+        and article_id IN
+        <foreach collection="ids" item="item" index="index"
+                 open="(" close=")" separator=",">
+            #{item}
+        </foreach>
+	</select>
 
 </mapper>

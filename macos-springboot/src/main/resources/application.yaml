@@ -20,7 +20,7 @@ spring:
         max-idle: 10 # 连接池中的最大空闲连接
         min-idle: 5 #连接池中的最小空闲连接
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/m?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=converttonull
+    url: jdbc:mysql://127.0.0.1:3306/xxl-job?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=converttonull
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
